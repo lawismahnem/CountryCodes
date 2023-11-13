@@ -61,7 +61,13 @@ body{
 #flag-img img{
     width:150px;
     height:100px;
-    border-radius: 5px;
+    
+    transition: 0.5s;
+}
+#flag-img:hover img{
+    border-radius: 0px;
+    border:1px solid #352F44;
+    border-radius: 20px;
 }
 #flag-div{
     display: flex;
@@ -72,4 +78,20 @@ body{
     margin: 0 auto;
     width:977px;
     text-align: center;
+}
+#h1{
+    margin:0px;
+    padding:0px;
+}
+#h1 h1{
+    font-size: 55px;
+    background-color:#352F44;
+    margin:0px;
+    padding:0px;
+}
+#h1 h4{
+    font-size: 15px;
+    background-color:#352F44;
+    margin:0px;
+    padding:0px;
 }

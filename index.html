@@ -37,9 +37,8 @@
             data   = (obj) => {
                 Object.keys(obj).forEach(function(key) {
                     var elem = document.getElementById('flag-div');
-                    elem.innerHTML += `<div id='flag-img'><img src='https://flagcdn.com/h240/${key}.png'/><h1>${key.toUpperCase()}</h1><h2 id="country">${obj[key]}</h2></div>`;
+                    elem.innerHTML += `<a href='country.html?countrycode=${key}'><div id='flag-img'><img src='https://flagcdn.com/h240/${key}.png'/><h1>${key.toUpperCase()}</h1><h2 id="country">${obj[key]}</h2></div></a>`;
                     });
-                    
             }
 
             //search 
